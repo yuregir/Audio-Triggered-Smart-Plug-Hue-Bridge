@@ -1,7 +1,9 @@
 
 # Audio Detection Control Daemon (MacOS CoreAudio) and Hue Bridge + Ikea TRÅDFRI Plug
 
-This project enables you to control a Philips Hue TRÅDFRI Smart Plug using audio detection on your MacOS device. When audio is detected, the plug will turn on; when no audio is detected for a set duration, the plug will turn off.Because Im too lazy to reach power switches of studio monitors, using this service to turn off my studio monitors when there is no audio.
+This project enables you to control a Philips Hue TRÅDFRI Smart Plug using audio detection on your MacOS device. When audio is detected, the plug will turn on; when no audio is detected for a set duration, the plug will turn off.
+Because Im too lazy to reach power switches of studio monitors, using this service to turn off my studio monitors when there is no audio.
+Connect your monitors power cables to Ikea Smart Plug.
 
 ## **Requirements**
 
@@ -34,6 +36,7 @@ To get started, you need to set up your **Philips Hue Bridge**. Here's how:
 3. Go to the **Settings** section, then tap **Light setup** and select **Add light**.
 4. The Hue app will search for new devices. **Press the button** on your TRÅDFRI Smart Plug until the app detects it.
 5. Once detected, the plug will be added to your Hue system. You can now control it from the app.
+6. Connect your studio monitors power cables to Ikea Smart Plug.
 
 #### 3. **Obtain Hue Bridge API Username**
 
